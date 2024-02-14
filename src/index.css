@@ -1,0 +1,53 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(/centurygothic/CenturyGothic.ttf);
+}
+
+* {
+  font-family: myFirstFont;
+}
+/* h1,h2,h3 {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+.bg{
+
+background: #FFD2D2;
+background: linear-gradient(315deg,#FFD2D2,#d2faff,#FFD2D2,#FFD2D2,#FFD2D2, #6dcff0);
+}
+.nav-bg{
+
+/* background: #f350a7; */
+/* #f350a75d */
+background: linear-gradient(135deg, #d2faff5f, #ffd2d25a,#f350a763,#ffd2d263);
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=7343de&c2=29b98c&gt=r&gd=dcc
+*/
+/* background: #7343DE;
+background: radial-gradient(at center, #7343DE, #29B98C); */
+}
+.t-shadow{
+    text-shadow: 0px 1px 1px rgb(5, 5, 5);
+}
+
+.btn{
+background: linear-gradient(135deg,#f350a7, #FFD2D2,#f350a7);
+
+}
+
+.emoji-follower {
+    font-size: 2rem; /* Adjust the size as needed */
+    cursor: none; /* Remove cursor */
+    display: inline-block;
+  }
+
+  

@@ -1,0 +1,5 @@
+.animated-emoji {
+  position: absolute;
+  font-size: 1.2rem;
+  transition: transform 0.1s ease-in-out;
+}
