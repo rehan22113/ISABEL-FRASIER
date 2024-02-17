@@ -140,10 +140,10 @@ const EmojiRain = ({children}) => {
     for (let i = 0; i < 2; i++) {
       // Reduce the number of emojis to 5
       addCircle(i * 1500, [10 + 200, 0], emoji[Math.floor(Math.random() * emoji.length)], 60);
-      addCircle(i * 3500, [10 + 200, 300], emoji[Math.floor(Math.random() * emoji.length)], 60);
-      addCircle(i * 3500, [10 - 400, -300], emoji[Math.floor(Math.random() * emoji.length)], 60);
+      addCircle(i * 3500, [10 - 400, 0], emoji[Math.floor(Math.random() * emoji.length)], 60);
       addCircle(i * 3500, [10 + 400, 300], emoji[Math.floor(Math.random() * emoji.length)], 60);
-      addCircle(i * 3500, [10 - 600, -300], emoji[Math.floor(Math.random() * emoji.length)], 60);
+      // addCircle(i * 3500, [10 - 600, -300], emoji[Math.floor(Math.random() * emoji.length)], 60);
+      addCircle(i * 1500, [10 - 200, 0], emoji[Math.floor(Math.random() * emoji.length)], 60);
       addCircle(i * 3500, [10 + 600, 300], emoji[Math.floor(Math.random() * emoji.length)], 60);
     }
   
