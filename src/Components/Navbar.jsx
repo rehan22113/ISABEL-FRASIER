@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 
-const Navbar = () => {
-  const [heart,setHeart] = useState(false)
+const Navbar = ({show,change}) => {
+  // const [heart,setHeart] = useState(false)
   return (
     <header class="text-gray-600 body-font nav-bg backdrop-blur-md shadow-md drop-shadow-lg">
   <div class="container mx-auto flex flex-wrap p-5 flex-row items-center justify-around">
-    <button onClick={()=>setHeart((prev)=>!prev)} class="flex title-font font-medium items-center text-white z-50">
-    <span className='text-4xl'>{heart?"💔":"❤️"}</span>
+    <button onClick={()=>change(()=>!show)} class="flex title-font font-medium items-center text-white z-50">
+    <span className='text-4xl'>{show?"💔":"❤️"}</span>
       {/* <span class="ml-3 text-xl"> '💕', '🪐', '💘', '💝', '💋', '🎀', '🍦', '💫', '❤️‍🔥', '💞'</span> */}
     </button>
     {/* <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
