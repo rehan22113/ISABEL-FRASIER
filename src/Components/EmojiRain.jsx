@@ -81,7 +81,7 @@ const EmojiRain = ({children}) => {
   // }, []);
   useEffect(() => {
     const container = document.getElementById('animate');
-    const emoji = ["🎀", "🧸", "🔮", "🍦", "🙂", "💝", "💫"];
+    const emoji = ["🎀", "🧸", "🔮", "🍦", "💝", "💫"];
     const circles = [];
   
     const addCircle = (delay, range, color, lifespan) => {

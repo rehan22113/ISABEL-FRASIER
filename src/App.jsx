@@ -14,7 +14,7 @@ const App = () => {
     if (!show) {
       cursorInstance = new emojiCursor({
         element: document.documentElement, // Apply to the entire document
-        emoji: ["💗", "💓", "💝", "💕", "💘", "💖", "😊"],
+        emoji: ["💗", "💓", "💝", "💕", "💘", "💖"],
       });
     }
 
