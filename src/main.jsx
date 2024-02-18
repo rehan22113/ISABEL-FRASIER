@@ -9,10 +9,6 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-  <div className='bg min-h-screen' id='emoji'>
-  {/* <FollowPointer/> */}
-  {/* <JSCursor/> */}
     <App />
-  </div>
   </React.StrictMode>,
 )
